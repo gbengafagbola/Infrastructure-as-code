@@ -3,9 +3,6 @@ Parameters:
   EnvironmentName:
       Description: An environment name that will be prefixed to resource names
       Type: String  
-  myVPC:
-      Description: VPC used to deploy our resources below
-      Type: AWS::EC2::VPC::Id
 
 Resources:
   # instace profile contains the IAM Role name(s) that we want to associate to our auto scaling EC2 Servers

@@ -3,7 +3,7 @@
 This folder provides contains the following folders:
 
 1. Diagram: - which is a visual aid to understand the CloudFormation script.
-2. Script:  - interpret the instructions and create a matching CloudFormation script.
+2. Script: - interpret the instructions and create a matching CloudFormation script.
 
 ### Dependencies
 ##### 1. AWS account
@@ -16,15 +16,15 @@ You can get VS Code editor, which is gret for indentation outline [here](https:/
 A user-account on [www.lucidchart.com](www.lucidchart.com) is required to be able to draw the web app architecture diagrams for AWS or any popular cloud platform if the need arise.
 
 
-### How to run the material?
-You can run the supporting material in two easy steps:
+### How to run?
+You can run thescript in two easy steps:
 ```bash
 # Ensure that the AWS CLI is configured before runniing the command below
 # Create the network infrastructure
 # Check the region in the create.sh file
-./create.sh myFirstStack network.yml network-parameters.json
+./create.sh udagramNetworkBuild network.yml network-parameters.json
 # Create servers
 # Change the AMI ID and key-pair name in the servers.yml
 # Check the region in the update.sh file
-./update.sh mySecStack servers.yml server-parameters.json
+./update.sh udagramProjectUpdate servers.yml servers-parameters.json
 ```
